@@ -234,6 +234,10 @@ nav a {
     text-decoration: none;
 }
 
+.nt-word-break-all {
+    word-break: break-all;
+}
+
 section {
     margin: 2.5rem 0.5rem;
 }
