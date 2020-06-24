@@ -31,6 +31,10 @@ a:hover, a:focus, a:active {
     font-weight: bold;
 }
 
+b i {
+    font-size: 1rem;
+}
+
 i {
     font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -165,7 +169,6 @@ nav a {
     height: 2.75rem;
     width: 2.75rem;
     font-size: 1.5rem;
-    line-height: 2.75rem;
     background-color: #495057;
     color: #fff !important;
     border-radius: 100%;
@@ -247,6 +250,10 @@ ul {
 @media (min-width: 768px) {
     body {
         font-size: 1.2rem;
+    }
+    
+    b i {
+        font-size: 1.05rem;
     }
     
     nav {
