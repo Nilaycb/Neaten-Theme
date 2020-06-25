@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## v1.1.0 (Date: TBD)
+## v1.1.0 (2020-06-25)
 ### Added
 - New CSS class is introduced to counter the issue where long words could compromise the responsiveness of the web layout. (#2)
 ### Changed
