@@ -64,20 +64,28 @@ ul {
 /* Global ends */
 
 
+/* GitHub Star Button */
 a.nt-button.nt-github-star {
-    color: #000000;
-    background-color: #efffcf;
+    color: #24292e;
+    background-color: #fafbfc;
     text-decoration: none;
     cursor: pointer;
 }
 
-a.nt-button.nt-github-star:hover, a.nt-button.nt-github-star:focus, a.nt-button.nt-github-star:active {
-    color: #484848;
-    background-color: #efffcf;
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: bold;
+a.nt-button.nt-github-star:hover {
+    background-color: #f3f4f6;
+    transition-duration: .3s;
 }
+
+a.nt-button.nt-github-star:focus {
+    box-shadow: 0 0 0 0.25rem #919d95;
+}
+
+a.nt-button.nt-github-star:active {
+    background-color: #edeff2;
+    transition: none;
+}
+/* GitHub Star Button end */
 
 section .nt-section-title {
     font-size: 1.55rem;
@@ -91,32 +99,45 @@ section .nt-section-title {
     flex-flow: column;
 }
 
+/* GitHub Star Button */
 .nt-button.nt-github-star {
     display: inline-block;
-    font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: Segoe UI, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 1.15rem;
-    color: #3b2626;
-    background-color: #efffcf;
+    color: #24292e;
+    background-color: #fafbfc;
     padding: 0.25rem 0.5rem;
-    border-radius: 0.5rem;
     text-align: center;
     vertical-align: middle;
+    border-width: 0.01rem;
+    border-style: solid;
+    border-color: #b0b0b1;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.05rem 0 #6d7174, inset 0 0.01rem 0 #ffffff;
+    transition: background-color .2s cubic-bezier(.3,0,.5,1);
 }
 
 .nt-button.nt-github-star a {
-    color: #000000;
-    background-color: #efffcf;
+    color: #24292e;
+    background-color: #fafbfc;
     text-decoration: none;
     cursor: pointer;
 }
 
-.nt-button.nt-github-star a:hover, .nt-button.nt-github-star a:focus, .nt-button.nt-github-star a:active {
-    color: #484848;
-    background-color: #efffcf;
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: bold;
+.nt-button.nt-github-star a:hover {
+    background-color: #f3f4f6;
+    transition-duration: .3s;
 }
+
+.nt-button.nt-github-star a:focus {
+    box-shadow: 0 0 0 0.25rem #919d95;
+}
+
+.nt-button.nt-github-star a:active {
+    background-color: #edeff2;
+    transition: none;
+}
+/* GitHub Star Button end */
 
 .nt-cover {
     display: flex;
