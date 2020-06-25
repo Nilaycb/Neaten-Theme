@@ -64,6 +64,21 @@ ul {
 /* Global ends */
 
 
+a.nt-button.nt-github-star {
+    color: #000000;
+    background-color: #efffcf;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.nt-button.nt-github-star:hover, a.nt-button.nt-github-star:focus, a.nt-button.nt-github-star:active {
+    color: #484848;
+    background-color: #efffcf;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 section .nt-section-title {
     font-size: 1.55rem;
 }
@@ -74,6 +89,33 @@ section .nt-section-title {
     align-items: center;
     justify-content: center;
     flex-flow: column;
+}
+
+.nt-button.nt-github-star {
+    display: inline-block;
+    font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.15rem;
+    color: #3b2626;
+    background-color: #efffcf;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nt-button.nt-github-star a {
+    color: #000000;
+    background-color: #efffcf;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nt-button.nt-github-star a:hover, .nt-button.nt-github-star a:focus, .nt-button.nt-github-star a:active {
+    color: #484848;
+    background-color: #efffcf;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .nt-cover {
