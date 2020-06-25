@@ -31,12 +31,13 @@ a:hover, a:focus, a:active {
     font-weight: bold;
 }
 
-b i {
-    font-size: 1rem;
+b i, i b {
+    font-size: 1rem!important;
 }
 
 i {
     font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.05rem;
 }
 
 nav {
